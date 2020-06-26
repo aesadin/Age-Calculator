@@ -11,4 +11,8 @@ export class AgeCalculator {
 
   }
 
+  calculateExpectancy() {
+    return parseInt((this.userLifeExpectancy / this.planetYearsInEarthYears).toFixed());
+  }
+
 };
