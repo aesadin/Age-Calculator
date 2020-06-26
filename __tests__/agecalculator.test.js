@@ -66,6 +66,11 @@ describe('AgeCalculator class', () => {
     expect(marsYearsLeft.calculateYearsLeft()).toEqual(37);
   })
 
+  test('should calculate how many years user has left on planet given the users life expectancy', () => {
+    const jupiterYearsLeft = new AgeCalculator(30, 100, 11.86);
+    expect(jupiterYearsLeft.calculateYearsLeft()).toEqual(6);
+  })
+
   test('should calculate how many years over the user life expectancy is if the userAge is higher than expectancy', () => {
     const mercuryOlderUser = new AgeCalculator(105, 100, .24);
     expect(mercuryOlderUser.calculateYearsOver()).toEqual(21);
