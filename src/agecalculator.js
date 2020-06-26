@@ -20,4 +20,9 @@ export class AgeCalculator {
     return parseInt(planetExpectancy);
   }
 
+  calculateYearsOver() {
+    let ageOver = ((this.userAge - this.userLifeExpectancy) / this.planetYearsInEarthYears).toFixed();
+    return parseInt(ageOver);
+  }
+
 };
