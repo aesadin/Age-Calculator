@@ -5,4 +5,10 @@ export class AgeCalculator {
     this.planetYearsInEarthYears = planetYearsInEarthYears;
 
   }
+
+  calculateAge() {
+    return (this.userAge / this.planetYearsInEarthYears);
+
+  }
+
 };
