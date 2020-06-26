@@ -2,6 +2,7 @@ import { AgeCalculator } from '../src/agecalculator.js';
 
 describe('AgeCalculator class', () => {
   
+  
   test('should create new age calculator object with all properties', () => {
     const mercuryAgeObject = new AgeCalculator(30, 100, .24);
     expect(mercuryAgeObject.userAge).toEqual(30);
