@@ -24,6 +24,18 @@ _Long deiscription._
 4. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in mercury years.
 * Input: UserEarthAge: 101, userLifeExpectancy: 100
 * Output: (UserEarthAge - userLifeExpectancy) / .24 = 4.16 mercuryYears over life expectancy
+
+5. create prototype to calculate userAge on venus.
+* Input: userEarthAge: 30 years
+* Output: venusAge: 48 years
+
+6. create prototype to calculate userLifeExpectancy on venus.
+* Input: userLifeExpectancy: 100 years
+* Output: venusLifeExpectancy: 161 years
+
+7. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in venus years.
+* Input: UserEarthAge: 101, userLifeExpectancy: 100
+* Output: (UserEarthAge - userLifeExpectancy) / .62 = 1.61 venusYears over life expectancy
 ## Setup/Installation Requirements
 
 * _Visit the following link: _
