@@ -41,6 +41,11 @@ describe('AgeCalculator class', () => {
     expect(venusLifeExpectancy.calculateExpectancy()).toEqual(161);
   })
 
+  test('should calculate userLifeExpectancy on a given planet', () => {
+    const marsLifeExpectancy = new AgeCalculator(30, 100, 1.88);
+    expect(marsLifeExpectancy.calculateExpectancy()).toEqual(53);
+  })
+
   test('should calculate how many years user has left on planet given the users life expectancy', () => {
     const mercuryYearsLeft = new AgeCalculator(30, 100, .24);
     expect(mercuryYearsLeft.calculateYearsLeft()).toEqual(292);
