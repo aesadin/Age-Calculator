@@ -12,7 +12,12 @@ describe('AgeCalculator class', () => {
 
   test('should calculate userAge on a given planet', () => {
     const mercuryAgeCalculator = new AgeCalculator(30, 100, .24);
-    expect(mercuryAgeCalculator.calculatAge()).toEqual(125);
+    expect(mercuryAgeCalculator.calculateAge()).toEqual(125);
+  })
+
+  test('should calculate userLifeExpectancy on a given planet', () => {
+    const mercuryLifeExpectancy = new AgeCalculator(30, 100, .24);
+    expect(mercuryLifeExpectancy.calculateExpectancy()).toEqual(417);
   })
 
 });
