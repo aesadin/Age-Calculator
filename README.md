@@ -23,7 +23,7 @@ _Long deiscription._
 
 4. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in mercury years.
 * Input: UserEarthAge: 101, userLifeExpectancy: 100
-* Output: (UserEarthAge - userLifeExpectancy) / .24 = 4.16 mercuryYears over life expectancy
+* Output: (UserEarthAge - userLifeExpectancy) / .24 = 4.16 years mercuryYears over life expectancy
 
 5. create prototype to calculate userAge on venus.
 * Input: userEarthAge: 30 years
@@ -35,7 +35,31 @@ _Long deiscription._
 
 7. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in venus years.
 * Input: UserEarthAge: 101, userLifeExpectancy: 100
-* Output: (UserEarthAge - userLifeExpectancy) / .62 = 1.61 venusYears over life expectancy
+* Output: (UserEarthAge - userLifeExpectancy) / .62 = 1.61 years venusYears over life expectancy
+
+8. create prototype to calculate userAge on mars.
+* Input: userEarthAge: 30 years
+* Output: marsAge: 16 years
+
+9. create prototype to calculate userLifeExpectancy on mars.
+* Input: userLifeExpectancy: 100 years
+* Output: marsLifeExpectancy: 53 years
+
+10. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in mars years.
+* Input: UserEarthAge: 101, userLifeExpectancy: 100
+* Output: (UserEarthAge - userLifeExpectancy) / 1.88 = .53 years marsYears over life expectancy
+
+11. create prototype to calculate userAge on jupiter.
+* Input: userEarthAge: 30 years
+* Output: marsAge: 2.5 years
+
+12. create prototype to calculate userLifeExpectancy on jupiter.
+* Input: userLifeExpectancy: 100 years
+* Output: jupiterLifeExpectancy: 8 years
+
+13. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in jupiter years.
+* Input: UserEarthAge: 101, userLifeExpectancy: 100
+* Output: (UserEarthAge - userLifeExpectancy) / 11.86 = 0.084 years jupiterYears over life expectancy
 ## Setup/Installation Requirements
 
 * _Visit the following link: _
