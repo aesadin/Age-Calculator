@@ -9,10 +9,21 @@
 _Long deiscription._
 
 ### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
+1. create class constructor for user that takes in the parameters of age and life expectancy.
+* Input: N/A
+* Output:  function Person(userEarthAge, userLifeExpectancy) { this.age = age, this.lifeExpectancy}
 
+2. create prototype to calculate userAge on mercury.
+* Input: userEarthAge: 30 years
+* Output: mercuryAge: 125 years
 
+3. create prototype to calculate userLifeExpectancy on mercury.
+* Input: userLifeExpectancy: 100 years
+* Output: mercuryLifeExpectancy: 416 years
+
+4. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in mercury years.
+* Input: UserEarthAge: 101, userLifeExpectancy: 100
+* Output: (UserEarthAge - userLifeExpectancy) / .24 = 4.16 mercuryYears over life expectancy
 ## Setup/Installation Requirements
 
 * _Visit the following link: _
