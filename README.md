@@ -17,6 +17,10 @@ _This website will allow a user to input their current age and well as their lif
 * Input: userEarthAge: 30 years
 * Output: mercuryAge: 125 years
 
+3. create prototype to calculate userLifeExpectancy on mercury.
+* Input: userLifeExpectancy: 100 years
+* Output: mercuryLifeExpectancy: 416 years
+
 ## Setup/Installation Requirements
 
 * _Visit the following link: _
