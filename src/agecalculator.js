@@ -7,7 +7,7 @@ export class AgeCalculator {
   }
 
   calculateAge() {
-    return (this.userAge / this.planetYearsInEarthYears);
+    return parseInt((this.userAge / this.planetYearsInEarthYears).toFixed());
 
   }
 
