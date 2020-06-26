@@ -21,6 +21,15 @@ _This website will allow a user to input their current age and well as their lif
 * Input: userLifeExpectancy: 100 years
 * Output: mercuryLifeExpectancy: 416 years
 
+4. create prototype to calculate how many years you have left on mercury given your life expectancy.
+* Input: userLifeExpectancy: 100, userAge: 30
+* Output: yearsLeft: 70 / .24 = 291 years left
+
+5. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in mercury years.
+* Input: UserEarthAge: 101, userLifeExpectancy: 100
+* Output: (UserEarthAge - userLifeExpectancy) / .24 = 4.16 years mercuryYears over life expectancy
+
+
 ## Setup/Installation Requirements
 
 * _Visit the following link: _
