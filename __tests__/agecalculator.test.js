@@ -76,6 +76,13 @@ describe('AgeCalculator class', () => {
     expect(mercuryOlderUser.calculateYearsOver()).toEqual(21);
   })
 
+  test('should calculate how many years over the user life expectancy is if the userAge is higher than expectancy', () => {
+    const venusOlderUser = new AgeCalculator(105, 100, .62);
+    expect(venusOlderUser.calculateYearsOver()).toEqual(8);
+  })
+
+
+
   
 
 });
