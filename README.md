@@ -80,29 +80,36 @@ _This application will allow a user to input their current age and well as their
 * Output: (UserEarthAge - userLifeExpectancy) / 11.86 = 0.084 years jupiterYears over life expectancy
 
 
-## Setup/Installation Requirements
+#### Open by downloading:
+1. Download the repository onto your computer
+2. Drag and drop index.html in to your web browser from gh-pages:  https://aesadin.github.io/Age-Calculator/
 
-* _Visit the following link: _
-* _Clone the repository to your desired directory._
-* _OR_
-* _Visit here: _
+#### Open with Bash/GitBash:
+1. _open your bash terminal_
+2. _use git clone, copy and paste github URL using clone or download green button:  https://aesadin.github.io/Age-Calculator/ _
+3. _Navigate into the 'My-Portfolio' directory using cd My-Portfolio_
+4. _open in Visual Studio code using 'code .' command_
+5. _Open index.html in Chrome or preferred browser: 'open index.html'_
 
 
 ## Known Bugs
 
-_ _
+_No known bugs._
+
 ## Support and contact details
 
 _Contact me at allisonsadin@gmail.com_
 
 ## Technologies Used
 
-HTML
-Javascript
-jQuery
-eslint
-webpack
-jest
+_HTML_
+_Javascript_
+_jQuery_
+_Jest_
+_Webpack_
+_eslint_
+
+
 
 ### License
 
