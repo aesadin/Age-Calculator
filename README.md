@@ -13,71 +13,21 @@ _This application will allow a user to input their current age and well as their
 * Input: N/A
 * Output:  function Person(userEarthAge, userLifeExpectancy, planetYearsInEarthYears) { this.age = userAge, this.iserLifeExpectancy = userLifeExpectancy, this.planetYearsInEarthYears = planetYearsInEarthYears}
 
-2. Create a function prototype that calculates the user's age on planet mercury.
+2. Create a function prototype that calculates the user's age on the selected planet.
 * Input: userEarthAge: 30 years
 * Output: mercuryAge: 125 years
 
-3. create prototype to calculate userLifeExpectancy on mercury.
+3. create prototype to calculate userLifeExpectancy on the selected planet.
 * Input: userLifeExpectancy: 100 years
 * Output: mercuryLifeExpectancy: 416 years
 
-4. create prototype to calculate how many years you have left on mercury given your life expectancy.
+4. create prototype to calculate how many years you have left on the selected planet given your life expectancy.
 * Input: userLifeExpectancy: 100, userAge: 30
 * Output: yearsLeft: 70 / .24 = 291 years left
 
-5. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in mercury years.
+5. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in the selected planet's years.
 * Input: UserEarthAge: 101, userLifeExpectancy: 100
 * Output: (UserEarthAge - userLifeExpectancy) / .24 = 4.16 years mercuryYears over life expectancy
-
-
-6. create prototype to calculate userAge on venus.
-* Input: userEarthAge: 30 years
-* Output: venusAge: 48 years
-
-
-7. create prototype to calculate userLifeExpectancy on venus.
-* Input: userLifeExpectancy: 100 years
-* Output: venusLifeExpectancy: 161 years
-
-8. create prototype to calculate how many years you have left on venus given your life expectancy.
-* Input: userLifeExpectancy: 100, userAge: 30
-* Output: yearsLeft: 70 / .62 = 113 years left
-
-9. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in venus years.
-* Input: UserEarthAge: 101, userLifeExpectancy: 100
-* Output: (UserEarthAge - userLifeExpectancy) / .62 = 1.61 years venusYears over life expectancy
-
-10. create prototype to calculate userAge on mars.
-* Input: userEarthAge: 30 years
-* Output: marsAge: 16 years
-
-11. create prototype to calculate userLifeExpectancy on mars.
-* Input: userLifeExpectancy: 100 years
-* Output: marsLifeExpectancy: 53 years
-
-12. create prototype to calculate how many years you have left on mars given your life expectancy.
-* Input: userLifeExpectancy: 100, userAge: 30
-* Output: yearsLeft: 70 / 1.88 = 37.23 years left
-
-13. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in mars years.
-* Input: UserEarthAge: 101, userLifeExpectancy: 100
-* Output: (UserEarthAge - userLifeExpectancy) / 1.88 = .53 years marsYears over life expectancy
-
-14. create prototype to calculate userAge on jupiter.
-* Input: userEarthAge: 30 years
-* Output: marsAge: 2.5 years
-
-15. create prototype to calculate userLifeExpectancy on jupiter.
-* Input: userLifeExpectancy: 100 years
-* Output: jupiterLifeExpectancy: 8 years
-
-16. create prototype to calculate how many years you have left on jupiter given your life expectancy.
-* Input: userLifeExpectancy: 100, userAge: 30
-* Output: yearsLeft: 70 / .11.86 = 5.9 years left
-
-17. create prototype to calculate if userEarthAge is greater than userLifeExpectancy return the difference in jupiter years.
-* Input: UserEarthAge: 105, userLifeExpectancy: 90
-* Output: (UserEarthAge - userLifeExpectancy) / 11.86 = 0.084 years jupiterYears over life expectancy
 
 
 #### Open by downloading:
